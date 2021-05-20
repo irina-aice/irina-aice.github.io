@@ -37,6 +37,12 @@ a {
   text-decoration: none;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .main {
   width: 100%;
   max-width: 900px;
@@ -90,4 +96,18 @@ a {
 
 .main__link:hover {
   color: #036cda;
+}
+
+.main__subtitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.main__item {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-column-gap: 10px;
 }
