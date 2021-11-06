@@ -1,0 +1,18 @@
+.works__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .works__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .works__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
