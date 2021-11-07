@@ -1,4 +1,4 @@
-.works__list {
+./*works__list {
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 15px;
@@ -15,4 +15,4 @@
   .works__list {
     grid-template-columns: repeat(4, 1fr);
   }
-}
+}*/

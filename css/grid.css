@@ -1,0 +1,7 @@
+.grid__item {
+  width: 25%;
+}
+
+.grid__item--width2 {
+  width: 50%;
+}
