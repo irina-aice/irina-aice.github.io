@@ -46,19 +46,11 @@
 }
 
 .main__link {
-  color: #2ac8fa;
+  color: #58a6ff; /*#2ac8fa;*/
 }
 
 .main__link:hover {
   color: #036cda;
-}
-
-.main__subtitle {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 30px;
-  line-height: 1.3;
-  font-weight: 700;
 }
 
 .main__item {

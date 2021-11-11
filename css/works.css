@@ -2,21 +2,23 @@
   margin-top: 15px;
 }
 
-./*works__list {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+.works__button-wrapper {
+  margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  .works__list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.works__button {
+  padding: 5px 10px;
+  border: 0;
+  font-size: inherit;
+  color: #000000;
+  background-color: #58a6ff;/*#2ac8fa;*/
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@media (min-width: 900px) {
-  .works__list {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}*/
+.works__button:hover,
+.works__button:active,
+.works__button.is-checked {
+  color: #ffffff;
+  background-color: #036cda;
+}
